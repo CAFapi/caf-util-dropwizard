@@ -4,7 +4,7 @@ This project provides Dropwizard utility code.
 
 ## caf-substitutor-dropwizard
 
-This module provides a `CustomSubstitutor` class that combines secret lookup: 
+This module provides a `CafConfigSubstitutor` class that combines secret lookup: 
 
 ```yaml
 password: ${secret:MY_PASSWORD:-mysecretpassword}
@@ -24,7 +24,7 @@ public void initialize(final Bootstrap<MyAppConfiguration> bootstrap)
 {
     bootstrap.setConfigurationSourceProvider(new SubstitutingSourceProvider(
             bootstrap.getConfigurationSourceProvider(),
-            new CustomSubstitutor(false, true)));
+            new CafConfigSubstitutor(false, true)));
 
     super.initialize(bootstrap);
 }
