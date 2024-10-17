@@ -32,10 +32,10 @@ import com.hpe.caf.secret.SecretUtil;
  * This class extends StringSubstitutor and configures it with a custom StringLookup
  * that combines secret lookup and environment variable lookup capabilities.
  */
-public final class CustomSubstitutor extends StringSubstitutor
+public final class CafConfigSubstitutor extends StringSubstitutor
 {
     /**
-     * Constructs a new CustomSubstitutor with specified behavior for strict mode
+     * Constructs a new CafConfigSubstitutor with specified behavior for strict mode
      * and substitution in variables.
      *
      * @param strict Determines whether undefined variables should throw an exception.
@@ -43,7 +43,7 @@ public final class CustomSubstitutor extends StringSubstitutor
      * @param substitutionInVariables Determines whether substitution is allowed in variable names.
      *                                If true, variables can contain other variables.
      */
-    public CustomSubstitutor(final boolean strict, final boolean substitutionInVariables)
+    public CafConfigSubstitutor(final boolean strict, final boolean substitutionInVariables)
     {
         super(createStringLookup());
         this.setEnableUndefinedVariableException(strict);
