@@ -29,7 +29,7 @@
 
     <groupId>com.github.cafapi.util.dropwizard</groupId>
     <artifactId>caf-util-dropwizard-aggregator</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>CAF Utilities for DropWizard</name>
