@@ -15,7 +15,7 @@
  */
 package com.github.cafapi.util.dropwizard;
 
-import com.hpe.caf.secret.SecretUtil;
+import com.github.cafapi.common.util.secret.SecretUtil;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.util.HashMap;
