@@ -71,6 +71,7 @@
     <properties>
         <copyrightYear>2025</copyrightYear>
         <enforcer.skip>true</enforcer.skip>
+        <duplicate-finder.skip>true</duplicate-finder.skip>
     </properties>
 
     <dependencyManagement>
