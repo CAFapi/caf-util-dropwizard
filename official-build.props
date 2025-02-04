@@ -1,1 +1,2 @@
 SEPG_BUILD_ENV_IMAGE=cafapi/buildenv-jdk17:4.1.0
+USE_OPEN_SOURCE_SETTINGS=false
