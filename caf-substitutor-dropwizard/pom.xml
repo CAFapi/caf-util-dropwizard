@@ -28,6 +28,7 @@
     </parent>
 
     <artifactId>caf-substitutor-dropwizard</artifactId>
+    <name>caf-substitutor-dropwizard</name>
 
     <dependencies>
         <dependency>
